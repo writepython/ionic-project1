@@ -1,0 +1,9 @@
+{
+  "name": "project1",
+  "app_id": "47371081",
+  "type": "ionic1",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ]
+}
