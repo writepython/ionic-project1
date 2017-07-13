@@ -9,13 +9,19 @@ angular.module('app.routes', [])
   $stateProvider
     
 
-      .state('page1', {
-    url: '/page1',
-    templateUrl: 'templates/page1.html',
-    controller: 'page1Ctrl'
+      .state('getValuation', {
+    url: '/get-valuation-form',
+    templateUrl: 'templates/getValuation.html',
+    controller: 'getValuationCtrl'
   })
 
-$urlRouterProvider.otherwise('/page1')
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'loginCtrl'
+  })
+
+$urlRouterProvider.otherwise('/get-valuation-form')
 
 
 });
